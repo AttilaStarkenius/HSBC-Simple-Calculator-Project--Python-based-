@@ -37,10 +37,14 @@ class Calculator:
 
 
 
-        label_key = Label(root, height=15, width=30,bd=10,bg='gray50')
+        # label_key = Label(root, height=15, width=30,bd=10,bg='gray50')
+        label_key = Label(root, height=15, width=30,bd=10,bg='blue50')
+
         label_key.pack(side=LEFT, fill=BOTH, expand=True)
 
-        label_fkey = Label(root, height=15, width=15, bg='gray25')
+        # label_fkey = Label(root, height=15, width=15, bg='gray25')
+        label_fkey = Label(root, height=15, width=15, bg='blue25')
+
         label_fkey.pack(fill=BOTH, expand=True)
 
         label_7 = Label(label_key, bg='black')
